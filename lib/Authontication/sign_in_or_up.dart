@@ -18,7 +18,7 @@ class _SignInOrUpState extends State<SignInOrUp> {
           children: [
             Stack(children: [
               Container(
-                height: 853,
+                height: 1000,
                 width: double.infinity,
                 decoration: const BoxDecoration(
                     image: DecorationImage(
@@ -40,8 +40,8 @@ class _SignInOrUpState extends State<SignInOrUp> {
                 ),
               ),
               Positioned(
-                bottom: 150,
-                left: 30,
+                bottom: 250,
+                left: 22,
                 child: (Column(
                   children: [
                     InkWell(
